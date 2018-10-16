@@ -1,4 +1,4 @@
-package testScripts;
+package com.exs.salesforce.automation;
 
 import java.util.concurrent.TimeUnit;
 
@@ -11,7 +11,6 @@ public class BaseClass {
 	public static WebDriver driver = null;
 
 	public static WebDriver IntializeDriver(String name) {
-
 		if (name.equalsIgnoreCase("firefox")) {
 			System.setProperty("webdriver.gecko.driver", "src/test/resources/geckodriver.exe");
 			driver = new FirefoxDriver();
@@ -32,5 +31,4 @@ public class BaseClass {
 		driver.close();
 	}
 
-	
 }

@@ -1,4 +1,4 @@
-package testScripts;
+package com.exs.salesforce.automation;
 
 import java.io.IOException;
 
